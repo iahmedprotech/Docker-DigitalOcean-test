@@ -10,4 +10,8 @@ router.get('/test', (req, res) => {
   res.send('hello world!');
 });
 
+router.get('/jenkins', (req, res) => {
+  res.render('jenkins');
+})
+
 module.exports = router;
