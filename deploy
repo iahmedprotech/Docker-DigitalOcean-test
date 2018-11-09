@@ -1,0 +1,7 @@
+
+cd ./Docker-DigitalOcean-test
+git pull
+docker kill myapp
+docker rm myapp
+docker build -t expressapp .
+docker run -d -p 5002:3000 --name myapp expressapp 
