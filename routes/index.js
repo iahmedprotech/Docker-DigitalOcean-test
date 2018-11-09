@@ -12,6 +12,6 @@ router.get('/test', (req, res) => {
 
 router.get('/jenkins', (req, res) => {
   res.render('jenkins');
-})
+});
 
 module.exports = router;
